@@ -382,3 +382,15 @@ img.tumblr_avatar {
     opacity:50%;
     margin-left:10px;
 }
+
+.art-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.art-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
