@@ -384,15 +384,14 @@ img.tumblr_avatar {
 }
 
 .art-image {
-  position: absolute;
-  top: 72%; /* 👈 Esto define qué tan abajo va, puedes ajustar */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
+  position: relative;
+  z-index: 5;
+  margin-top: 400px; /* ← ajusta esta cantidad para separarlo más abajo */
+  text-align: center;
 }
 
 .art-image img {
-  max-width: 80vw;
+  max-width: 20%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
