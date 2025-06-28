@@ -385,7 +385,7 @@ img.tumblr_avatar {
 
 .art-image {
   position: absolute;
-  bottom: 400px; /* 👈 controla qué tan arriba o abajo */
+  bottom: 5px; /* 👈 controla qué tan arriba o abajo */
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
